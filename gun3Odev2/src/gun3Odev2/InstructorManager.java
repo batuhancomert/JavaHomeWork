@@ -3,13 +3,13 @@ package gun3Odev2;
 public class InstructorManager extends User {
 	
 	
-	String ınstructornumber;
+	String instructornumber;
 	
 	public String getInstructornumber() {
-		return ınstructornumber;
+		return instructornumber;
 	}
 	public void setInstructornumber(String instructornumber) {
-		ınstructornumber = instructornumber;
+		instructornumber = instructornumber;
 	}
 
 
