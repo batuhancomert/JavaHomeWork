@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		InstructorManager instructor1 = new InstructorManager();
+		Instructor instructor1 = new Instructor();
 		
 		
 		instructor1.setId(102);
@@ -20,7 +20,7 @@ public class Main {
 		
 		
 		
-		StudentManager student1 = new StudentManager();
+		Student student1 = new Student();
 		
 		
 		student1.setId(103);

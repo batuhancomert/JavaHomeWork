@@ -1,16 +1,18 @@
 package gun3Odev2;
 
-public class StudentManager extends User {
+public class StudentManager extends UserManager {
 	
-	
-	String studentNumber;
-	
-	public String getStudentNumber() {
-		return studentNumber;
+	public void studentAdd(Student student) {
+		
+		System.out.println("Ekleme işlemi başarılı :" + student.getStudentNumber() );
 	}
-	public void setStudentNumber(String studentNumber) {
-		this.studentNumber = studentNumber;
+	
+	public void studentSave(Student student){
+		
+		System.out.println("Kayıt işlemi başarılı" + student.getStudentNumber());
 	}
+	
+
 
 
 	

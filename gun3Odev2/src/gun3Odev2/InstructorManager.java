@@ -1,16 +1,18 @@
 package gun3Odev2;
 
-public class InstructorManager extends User {
+public class InstructorManager extends UserManager {
 	
-	
-	String instructornumber;
-	
-	public String getInstructornumber() {
-		return instructornumber;
+	public void instructorAdd(Instructor instructor) {
+		
+		System.out.println("Ekleme iþlemi baþarýlý" + instructor.getInstructornumber() );
 	}
-	public void setInstructornumber(String instructornumber) {
-		instructornumber = instructornumber;
+	
+	public void instructorSave(Instructor instructor) {
+		
+		System.out.println("Kayýt iþlemi baþarýlý" + instructor.getInstructornumber() );
 	}
+	
+
 
 
 }
